@@ -7,6 +7,6 @@ class minmax{
     Arrays.sort(array);
     
     System.out.print("Minimum: " + array[0]); 
-    System.out.println("Maximum: " + array[-1]);
+    System.out.println("Maximum: " + array[array.length - 1]);
   }
 }
